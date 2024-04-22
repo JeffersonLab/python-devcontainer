@@ -1,3 +1,3 @@
 services:
   dev:
-    image: jeffersonlab/python-devcontainer:0.0.6
+    image: jeffersonlab/python-devcontainer:1.0.0
