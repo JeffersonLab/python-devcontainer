@@ -25,4 +25,5 @@ Add a [.devcontainer](https://github.com/JeffersonLab/python-devcontainer/tree/m
 Make changes to the Dockerfile, test them, then bump the version in the VERSION file and commit it.  The CD GitHub Action should take care of the rest.
 
 ## See Also
+- [Python workflows](https://github.com/JeffersonLab/python-workflows)
 - [Other devcontainers](https://github.com/search?q=org%3Ajeffersonlab+topic%3Adevcontainer&type=repositories)
