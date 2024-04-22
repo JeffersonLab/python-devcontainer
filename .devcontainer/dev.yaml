@@ -1,0 +1,9 @@
+services:
+  #TODO: Your other containers go here!
+
+  dev:
+    image: jeffersonlab/python-devcontainer:latest
+    hostname: dev
+    container_name: dev
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
