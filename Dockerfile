@@ -2,7 +2,7 @@ FROM ubuntu:jammy
 
 RUN cd /tmp \
     && apt update \
-    && apt install -y curl git vim zip unzip tini \
+    && apt install -y curl git vim zip unzip tini python3 python-is-python3 \
     && apt clean \
     && curl -o /usr/local/share/ca-certificates/customcert.crt http://pki.jlab.org/JLabCA.crt \
     && update-ca-certificates \
